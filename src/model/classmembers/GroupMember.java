@@ -1,6 +1,6 @@
 package model.classmembers;
 
-public class GroupMember {
+public abstract class GroupMember {
 
     private String name;
 
@@ -8,9 +8,7 @@ public class GroupMember {
         this.name = name;
     }
 
-    public String getInfo(){
-        return this.name;
-    }
+    abstract public String getInfo();
 
     String getName(){
         return this.name;
