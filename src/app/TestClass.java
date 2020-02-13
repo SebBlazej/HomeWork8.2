@@ -28,5 +28,9 @@ public class TestClass {
         mathStudyGroup.removeStudent(firstStudent);
         mathStudyGroup.printAllInfo();
 
+        Student fourthStudent = new Student("Paweł Kreska");
+        mathStudyGroup.addStudent(fourthStudent);
+        mathStudyGroup.printAllInfo();
+
     }
 }
